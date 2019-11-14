@@ -11,5 +11,5 @@ public interface TimeEntryRepository {
 
     public TimeEntry update(long eq, TimeEntry any);
 
-    public TimeEntry delete(long timeEntryId);
+    public void delete(long timeEntryId);
 }
